@@ -36,7 +36,7 @@ namespace ProvaConsole
             var stopwatch = new Stopwatch();
             stopwatch.Start();
             try
-            {       
+            {
 
                 var itens = new List<Item>();
                 WriteLine("Acessar - Endpoint Fila");
@@ -74,17 +74,21 @@ namespace ProvaConsole
                             item.ValorCotacao = dados.FirstOrDefault().ValorCotacao;
                     }
 
-                    CreateFileCsv(listaMoedaCotacaoSel);                    
+                    CreateFileCsv(listaMoedaCotacaoSel);
                 }
 
                 if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
-                    WriteLine("Sem informações adicionadas na fila");
+                    WriteLine("Não existe objeto a ser retornado");
             }
             catch (HttpRequestException ex)
             {
                 WriteLine($"Ocorreu um erro ao acessar a api: {DateTime.Now} -  Error: {ex.Message}");
             }
-            finally 
+            catch (Exception ex)
+            {
+                WriteLine($"Ocorreu um erro: {DateTime.Now} -  Error: {ex.Message}");
+            }
+            finally
             {
                 stopwatch.Stop();
                 WriteLine($"Tempo total de Processamento: {stopwatch.Elapsed}");

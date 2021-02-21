@@ -18,7 +18,7 @@ namespace ProvaRest.Controllers
         public IActionResult GetLastItem()
         {
             if (_itemFilas.Count == 0) 
-                return NotFound("Não existe itens a serem processados");
+                return NotFound("Não existe objeto a ser retornado");
 
             var id = _itemFilas.Max(x => x.IdControle);
             var itens = _itemFilas.Where(x=> x.IdControle ==id).ToList();
