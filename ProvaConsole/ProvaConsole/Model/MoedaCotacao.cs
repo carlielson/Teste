@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ProvaConsole.Model
+{
+    public class MoedaCotacao
+    {
+        public string IdMoeda { get; set; }
+        public int CodCotacao { get; set; }
+
+        public static List<MoedaCotacao> _ListMoedaCotacao = 
+            new List<MoedaCotacao> {
+                        new MoedaCotacao { IdMoeda = "AFN",CodCotacao = 66},
+                        new MoedaCotacao { IdMoeda = "ALL",CodCotacao = 49},
+                        new MoedaCotacao { IdMoeda = "ANG",CodCotacao = 33},
+                        new MoedaCotacao { IdMoeda = "ARS",CodCotacao = 3 },
+                        new MoedaCotacao { IdMoeda = "AWG",CodCotacao = 6 },
+                        new MoedaCotacao { IdMoeda = "BOB",CodCotacao = 56},
+                        new MoedaCotacao { IdMoeda = "BYN",CodCotacao = 64},
+                        new MoedaCotacao { IdMoeda = "CAD",CodCotacao = 25},
+                        new MoedaCotacao { IdMoeda = "CDF",CodCotacao = 58},
+                        new MoedaCotacao { IdMoeda = "CLP",CodCotacao = 16},
+                        new MoedaCotacao { IdMoeda = "COP",CodCotacao = 37},
+                        new MoedaCotacao { IdMoeda = "CRC",CodCotacao = 52},
+                        new MoedaCotacao { IdMoeda = "CUP",CodCotacao = 8 },
+                        new MoedaCotacao { IdMoeda = "CVE",CodCotacao = 51},
+                        new MoedaCotacao { IdMoeda = "CZK",CodCotacao = 29},
+                        new MoedaCotacao { IdMoeda = "DJF",CodCotacao = 36},
+                        new MoedaCotacao { IdMoeda = "DZD",CodCotacao = 54},
+                        new MoedaCotacao { IdMoeda = "EGP",CodCotacao = 12},
+                        new MoedaCotacao { IdMoeda = "EUR",CodCotacao = 20},
+                        new MoedaCotacao { IdMoeda = "FJD",CodCotacao = 38},
+                        new MoedaCotacao { IdMoeda = "GBP",CodCotacao = 22},
+                        new MoedaCotacao { IdMoeda = "GEL",CodCotacao = 48},
+                        new MoedaCotacao { IdMoeda = "GIP",CodCotacao = 18},
+                        new MoedaCotacao { IdMoeda = "HTG",CodCotacao = 63},
+                        new MoedaCotacao { IdMoeda = "ILS",CodCotacao = 40},
+                        new MoedaCotacao { IdMoeda = "IRR",CodCotacao = 17},
+                        new MoedaCotacao { IdMoeda = "ISK",CodCotacao = 11},
+                        new MoedaCotacao { IdMoeda = "JPY",CodCotacao = 9 },
+                        new MoedaCotacao { IdMoeda = "KES",CodCotacao = 21},
+                        new MoedaCotacao { IdMoeda = "KMF",CodCotacao = 19},
+                        new MoedaCotacao { IdMoeda = "LBP",CodCotacao = 42},
+                        new MoedaCotacao { IdMoeda = "LSL",CodCotacao = 4 },
+                        new MoedaCotacao { IdMoeda = "MGA",CodCotacao = 35},
+                        new MoedaCotacao { IdMoeda = "MGB",CodCotacao = 26},
+                        new MoedaCotacao { IdMoeda = "MMK",CodCotacao = 69},
+                        new MoedaCotacao { IdMoeda = "MRO",CodCotacao = 53},
+                        new MoedaCotacao { IdMoeda = "MRU",CodCotacao = 15},
+                        new MoedaCotacao { IdMoeda = "MUR",CodCotacao = 7 },
+                        new MoedaCotacao { IdMoeda = "MXN",CodCotacao = 41},
+                        new MoedaCotacao { IdMoeda = "MZN",CodCotacao = 43},
+                        new MoedaCotacao { IdMoeda = "NIO",CodCotacao = 23},
+                        new MoedaCotacao { IdMoeda = "NOK",CodCotacao = 62},
+                        new MoedaCotacao { IdMoeda = "OMR",CodCotacao = 34},
+                        new MoedaCotacao { IdMoeda = "PEN",CodCotacao = 45},
+                        new MoedaCotacao { IdMoeda = "PGK",CodCotacao = 2 },
+                        new MoedaCotacao { IdMoeda = "PHP",CodCotacao = 24},
+                        new MoedaCotacao { IdMoeda = "RON",CodCotacao = 5 },
+                        new MoedaCotacao { IdMoeda = "SAR",CodCotacao = 44},
+                        new MoedaCotacao { IdMoeda = "SBD",CodCotacao = 32},
+                        new MoedaCotacao { IdMoeda = "SGD",CodCotacao = 70},
+                        new MoedaCotacao { IdMoeda = "SLL",CodCotacao = 10},
+                        new MoedaCotacao { IdMoeda = "SOS",CodCotacao = 61},
+                        new MoedaCotacao { IdMoeda = "SSP",CodCotacao = 47},
+                        new MoedaCotacao { IdMoeda = "SZL",CodCotacao = 55},
+                        new MoedaCotacao { IdMoeda = "THB",CodCotacao = 39},
+                        new MoedaCotacao { IdMoeda = "TRY",CodCotacao = 13},
+                        new MoedaCotacao { IdMoeda = "TTD",CodCotacao = 67},
+                        new MoedaCotacao { IdMoeda = "UGX",CodCotacao = 59},
+                        new MoedaCotacao { IdMoeda = "USD",CodCotacao = 1 },
+                        new MoedaCotacao { IdMoeda = "UYU",CodCotacao = 46},
+                        new MoedaCotacao { IdMoeda = "VES",CodCotacao = 68},
+                        new MoedaCotacao { IdMoeda = "VUV",CodCotacao = 57},
+                        new MoedaCotacao { IdMoeda = "WST",CodCotacao = 28},
+                        new MoedaCotacao { IdMoeda = "XAF",CodCotacao = 30},
+                        new MoedaCotacao { IdMoeda = "XAU",CodCotacao = 60},
+                        new MoedaCotacao { IdMoeda = "XDR",CodCotacao = 27},
+                        new MoedaCotacao { IdMoeda = "XOF",CodCotacao = 14},
+                        new MoedaCotacao { IdMoeda = "XPF",CodCotacao = 50},
+                        new MoedaCotacao { IdMoeda = "ZAR",CodCotacao = 65},
+                        new MoedaCotacao { IdMoeda = "ZWL",CodCotacao = 31},
+            };        
+    }
+}

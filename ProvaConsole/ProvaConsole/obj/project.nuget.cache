@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u6vzgYmPjegT809Q/0+O0bbKpLMGagdn7AATGHFPGkbrpQgXkeNa2b4AZYyv6R1twPWJ4dPD9scqqydvHnW1SA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carli\\source\\repos\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carli\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\bin\Release\netcoreapp3.1\ProvaConsole.exe
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\bin\Release\netcoreapp3.1\ProvaConsole.deps.json
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\bin\Release\netcoreapp3.1\ProvaConsole.runtimeconfig.json
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\bin\Release\netcoreapp3.1\ProvaConsole.runtimeconfig.dev.json
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\bin\Release\netcoreapp3.1\ProvaConsole.dll
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\bin\Release\netcoreapp3.1\ProvaConsole.pdb
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.AssemblyInfoInputs.cache
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.AssemblyInfo.cs
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.csproj.CoreCompileInputs.cache
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.csproj.CopyComplete
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.dll
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.pdb
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.genruntimeconfig.cache
+C:\Users\carli\source\repos\ProvaConsole\ProvaConsole\obj\Release\netcoreapp3.1\ProvaConsole.csprojAssemblyReference.cache
