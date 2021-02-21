@@ -112,7 +112,7 @@ namespace ProvaConsole
             foreach (var item in listaMoedaCotacaoSel)
             {
                 var primeiro = item.IdMoeda;
-                var segundo = item.DataReferencia.ToString();
+                var segundo = item.DataReferencia.ToString("dd/MM/yyyy");
                 var terceiro = item.ValorCotacao.ToString();
                 var novaLinha = string.Format("{0};{1};{2}", primeiro, segundo, terceiro);
                 csv.AppendLine(novaLinha);

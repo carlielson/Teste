@@ -8,6 +8,8 @@ namespace ProvaRest.Model
 {
     public class ItemFila
     {
+        public int IdControle { get; set; }
+
         [JsonProperty("moeda")]
         public string Moeda { get; set; }
 

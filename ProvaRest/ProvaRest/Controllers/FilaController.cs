@@ -18,17 +18,44 @@ namespace ProvaRest.Controllers
         public IActionResult GetLastItem()
         {
             if (_itemFilas.Count == 0) 
-                return NotFound();
+                return NotFound("Não existe itens a serem processados");
 
-            return Ok(_itemFilas);
+            var id = _itemFilas.Max(x => x.IdControle);
+            var itens = _itemFilas.Where(x=> x.IdControle ==id).ToList();
+            var itensRemove = _itemFilas.Where(x => x.IdControle == id).ToList();
+
+            foreach (var item in itensRemove)
+            {
+                _itemFilas.Remove(item);
+            }
+            
+            return Ok(itens);
         }
 
         // POST api/<FilaController>
         [HttpPost]
         public void Post([FromBody] List<ItemFila> itens)
         {
-            _itemFilas.Clear();
-            _itemFilas.AddRange(itens);
+            if (_itemFilas.Count > 0)
+            {
+                var id = _itemFilas.Max(x => x.IdControle);
+                id++;
+
+                foreach (var item in itens)
+                {
+                    item.IdControle = id;
+                }
+                _itemFilas.AddRange(itens);
+
+            }
+            else 
+            {
+                foreach (var item in itens)
+                {
+                    item.IdControle = 1;
+                }
+                _itemFilas.AddRange(itens);
+            }
         }
     }
 }
