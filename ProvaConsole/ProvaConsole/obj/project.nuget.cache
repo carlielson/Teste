@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u6vzgYmPjegT809Q/0+O0bbKpLMGagdn7AATGHFPGkbrpQgXkeNa2b4AZYyv6R1twPWJ4dPD9scqqydvHnW1SA==",
+  "dgSpecHash": "DmJ8W7jDZrw1kd2/nWvzvr3g5f2QsalE4D3AVKRd++OBvJuB8Kcb/ckw2dU4f6fjPDmyU9SicewjFsOfPaHrUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carli\\source\\repos\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj",
+  "projectFilePath": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carli\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

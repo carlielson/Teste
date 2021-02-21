@@ -3434,11 +3434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carli\\source\\repos\\ProvaRest\\ProvaRest\\ProvaRest.csproj",
+      "projectUniqueName": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaRest\\ProvaRest\\ProvaRest.csproj",
       "projectName": "ProvaRest",
-      "projectPath": "C:\\Users\\carli\\source\\repos\\ProvaRest\\ProvaRest\\ProvaRest.csproj",
+      "projectPath": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaRest\\ProvaRest\\ProvaRest.csproj",
       "packagesPath": "C:\\Users\\carli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carli\\source\\repos\\ProvaRest\\ProvaRest\\obj\\",
+      "outputPath": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaRest\\ProvaRest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

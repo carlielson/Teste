@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carli\\source\\repos\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj": {}
+    "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carli\\source\\repos\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj": {
+    "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carli\\source\\repos\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj",
+        "projectUniqueName": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj",
         "projectName": "ProvaConsole",
-        "projectPath": "C:\\Users\\carli\\source\\repos\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj",
+        "projectPath": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaConsole\\ProvaConsole\\ProvaConsole.csproj",
         "packagesPath": "C:\\Users\\carli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carli\\source\\repos\\ProvaConsole\\ProvaConsole\\obj\\",
+        "outputPath": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaConsole\\ProvaConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -33,11 +33,10 @@ namespace ProvaConsole
 
         static async void GetItemFila()
         {
-            
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
             try
-            {
-                var stopwatch = new Stopwatch();
-                stopwatch.Start();
+            {       
 
                 var itens = new List<Item>();
                 WriteLine("Acessar - Endpoint Fila");
@@ -75,9 +74,7 @@ namespace ProvaConsole
                             item.ValorCotacao = dados.FirstOrDefault().ValorCotacao;
                     }
 
-                    CreateFileCsv(listaMoedaCotacaoSel);
-                    stopwatch.Stop();
-                    WriteLine($"Tempo total de Processamento: {stopwatch.Elapsed}");
+                    CreateFileCsv(listaMoedaCotacaoSel);                    
                 }
 
                 if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
@@ -89,6 +86,8 @@ namespace ProvaConsole
             }
             finally 
             {
+                stopwatch.Stop();
+                WriteLine($"Tempo total de Processamento: {stopwatch.Elapsed}");
                 Finalizacao();
             }
            

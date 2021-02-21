@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LJIB4wJItr/zM4Rg0KAjQ7hBczXBtE8mI9plrJwgIupzPY77kfKsziXzI5uJuC/1T1/mh7KmGKsT6G8VUy254A==",
+  "dgSpecHash": "+n9WE+i+LQgsfbN5vlncZOmKeiSta8+myOgiBSJqtdKHPk4qO7HKaWXHrkA4O6wia0gGGbg/ED2zUy3sNN30fQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carli\\source\\repos\\ProvaRest\\ProvaRest\\ProvaRest.csproj",
+  "projectFilePath": "C:\\Users\\carli\\Documents\\Projetos\\Teste\\ProvaRest\\ProvaRest\\ProvaRest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carli\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\carli\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
